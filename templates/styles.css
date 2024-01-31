@@ -1,0 +1,79 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: lightblue; /* gold */
+}
+
+.hero {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color:azure;}
+
+.hero p {
+        font-size: 15px;
+        color:azure;
+        font-style: italic;
+        font-weight: bold;}
+
+.content {
+    padding: 2rem;
+}
+
+.dish {
+    margin: 1rem 0;
+    color: black;
+}
+
+.dish img {
+    max-width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-weight: bold;
+}
